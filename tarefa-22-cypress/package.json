@@ -1,0 +1,16 @@
+{
+  "name": "tarefa-22-cypress",
+  "version": "1.0.0",
+  "description": "Exercício M23 - Automação de UI com Cypress (intercept, carrinho de compras, relatórios).",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "report:allure": "allure generate allure-results --clean -o allure-report && allure open allure-report"
+  },
+  "devDependencies": {
+    "cypress": "^13.6.0",
+    "allure-commandline": "^2.30.0",
+    "allure-cypress": "^2.40.2",
+    "faker-js": "^8.4.1"
+  }
+}
